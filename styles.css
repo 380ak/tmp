@@ -397,4 +397,51 @@ a {
         height: 40px; /* Adjust size as needed */
         margin: 0; /* Reset margin */
     }
+
+
+
+
+
+
+
+    
+/* Ensure the container for the iframe takes up the desired height */
+.iframe-container {
+  height: 360px; /* Minimum height */
+  width: 100%;
+  overflow: hidden; /* Hide any potential scrollbars */
+}
+
+/* Ensure the iframe fills the container */
+iframe {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+@media (max-width: 500px) {
+  .iframe-container {
+      height: 420px;
+  }
+}
+@media (max-width: 460px) {
+  .iframe-container {
+      height: 500px;
+  }
+}
+@media (max-width: 400px) {
+  .iframe-container {
+      height: 600px;
+  }
+}
+@media (max-width: 305px) {
+  .iframe-container {
+      height: 750px;
+  }
+}
+@media (max-width: 280px) {
+  .iframe-container {
+      height: 850px;
+  }
+}
 }
